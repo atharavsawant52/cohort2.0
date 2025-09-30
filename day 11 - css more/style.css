@@ -1,0 +1,51 @@
+@font-face {
+    font-family: DS;
+    src: url(.//bloodcrowc.ttf)
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./demon-slayer-5120x2880-23652.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+h1{
+    font-family: DS;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #a70000;
+}
+
+button{
+    background-color: darkorange;
+    margin-top: 30%;
+    margin-left: 45%;
+    padding: 15px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(241, 134, 2);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
